@@ -27,8 +27,10 @@ class _WebScraperAppState extends State<WebScraperApp> {
         // it will return the attributes in the same order passed
         productNames = webScraper.getElement(
             'div.thumbnail > div.caption > h4 > a.title', ['href', 'title']);
+//        productDescriptions = webScraper.getElement(
+//            'div.thumbnail > div.caption > p.description', ['class']);
         productDescriptions = webScraper.getElement(
-            'div.thumbnail > div.caption > p.description', ['class']);
+            'div.thumbnail > div.caption > h4.pull-right.price', ['class']);
       });
 
     }

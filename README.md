@@ -2,4 +2,4 @@
 
 Simple web scraping tool now for Flutter
 
-![Demo Image 01](asset/screenshot.png)
+![Demo Image 01](asset/screenshot.png =250x)
